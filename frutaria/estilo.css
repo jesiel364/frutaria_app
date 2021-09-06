@@ -1,0 +1,138 @@
+body{
+	background-color: #282828;
+	color: white;
+	font: normal 18pt arial;
+}
+
+header, footer{
+	text-align: center;
+	display: block;
+
+}
+
+section{
+	margin: auto;
+	display: block;
+	width: 300px;
+	background-color: beige;
+	height: 150px;
+	border-radius: 10px;
+}
+
+div{
+	margin: 10px;
+}
+
+input{
+	margin-top: 10px;
+	font: normal  arial;
+	height: 20px;
+	line-height: 20px;
+}
+
+button{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 25px;
+	display: flex;
+	font: normal arial;
+	color: black;
+
+}
+
+div#field{
+	width: 250px;
+	display: flex;
+	text-align: center;
+	margin-left: auto;
+	margin-right: 190px;
+
+}
+
+div#res{
+	/*background-color: black;*/
+	border-radius: 10px;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+}
+
+footer{
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: 0px;
+
+}
+
+a{
+	text-decoration: none;
+	color: beige;
+}
+
+section#tabela{
+	background-color: beige;
+	color: black;
+	height: 400px;
+	width: 60%;
+	display: grid;
+	border-radius: 10px;
+	overflow-y: scroll;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.produtos{
+	min-width: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: auto;
+	display: flex;
+	/*background-color: blue;*/
+}
+
+img{
+	width: 80px;
+	display: grid;
+	margin-right: 0px;
+	margin-top: 10px;
+}
+
+ul, li{
+	display: flex;
+	font-size:16px ;
+	text-decoration: none;	
+}
+
+.produtos:hover{
+	background-color: blanchedalmond;
+}
+
+li{
+	margin-right: 20px;
+	
+
+}
+
+div#desc{
+	margin-left: 0px;
+}
+
+footer{
+	text-align: center;
+	margin: 10px;
+
+	display: grid;
+}
+
+#perfil{
+	height: 600px;
+	width: 60%;
+	background-color: beige;
+	color: black;
+	display: block;
+}
+
+#perfil-item{
+
+}
